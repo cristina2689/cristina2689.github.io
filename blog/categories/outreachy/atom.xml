@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Outreachy | The IIO Dummy Project]]></title>
+  <link href="http://cristina2689.github.io/blog/categories/outreachy/atom.xml" rel="self"/>
+  <link href="http://cristina2689.github.io/"/>
+  <updated>2016-03-14T02:19:13+02:00</updated>
+  <id>http://cristina2689.github.io/</id>
+  <author>
+    <name><![CDATA[Cristina Georgiana Opriceana]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[IIO Kernel Development, From Zero to Hero]]></title>
+    <link href="http://cristina2689.github.io/blog/2015/06/12/iio-kernel-development/"/>
+    <updated>2015-06-12T13:13:08+03:00</updated>
+    <id>http://cristina2689.github.io/blog/2015/06/12/iio-kernel-development</id>
+    <content type="html"><![CDATA[<p>Hi, I am Cristina and I&rsquo;m doing an internship at The Linux Foundation this summer,
+as part of the <a href="https://wiki.gnome.org/Outreachy">Outreachy</a> program, for which I&rsquo;ve been selected.</p>
+
+<p>I haven&rsquo;t been involved too much into open source development and I&rsquo;ve always wished
+to be, so that when I heard the program was opened, I saw it as the perfect chance to start
+contributing and be part of a community.</p>
+
+<p>The process of selection lasted from the end of February until April, time in which
+I&rsquo;ve got accustomed with the work environment, kernel development practices and wrote a
+few patches for a project I liked. I did my best in trying to know the project as much as
+I could and finally got accepted!</p>
+
+<!--more-->
+
+
+<p>Why Linux Kernel?</p>
+
+<p>I find operating systems the most fascinating subject in computer science and what
+better way to broaden my knowledge than actually contributing to the Linux Kernel?
+Apart from that, the penguin is nice.</p>
+
+<p>What is IIO?</p>
+
+<p>IIO stands for the Linux Industrial I/O Subsystem which deals with drivers for
+small devices, analog or digital such as sensors (pressure, light, temperature), accelerometers
+, ADCs, DACs and others. The IIO module has been in the upstream linux kernel since v2.6.32,
+that would be around 2009 and supports more than 200 iio device drivers <a href="http://ftp.heanet.ie/mirrors/fosdem-video/2015/devroom-software_defined_radio/iiosdr.mp4">[1]</a>.
+More blog posts on this subject and the iio architecture are coming in the next weeks,
+as I am currently investigating and reading in the field.</p>
+
+<p>There were several proposals for the projects on this round, which you can find <a href="http://kernelnewbies.org/OutreachyIntro">here</a>.
+I chose the IIO dummy driver mentored by Daniel Baluta and Octavian Purdila, which acts as a
+sort of template for writing iio drivers, but which is far from clean. My main responsability
+is to solve all the problems related to this dummy driver and get it out of staging.</p>
+
+<p>All in all, it&rsquo;s going to be an interesting summer, with a lot of challenges
+I can hardly wait to solve!</p>
+]]></content>
+  </entry>
+  
+</feed>

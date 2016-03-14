@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Linux | The IIO Dummy Project]]></title>
+  <link href="http://cristina2689.github.io/blog/categories/linux/atom.xml" rel="self"/>
+  <link href="http://cristina2689.github.io/"/>
+  <updated>2016-03-14T02:19:13+02:00</updated>
+  <id>http://cristina2689.github.io/</id>
+  <author>
+    <name><![CDATA[Cristina Georgiana Opriceana]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[The Illustrated Guide to Linux First Patch]]></title>
+    <link href="http://cristina2689.github.io/blog/2015/06/13/the-illustrated-guide-to-linux-first-patch/"/>
+    <updated>2015-06-13T01:17:37+03:00</updated>
+    <id>http://cristina2689.github.io/blog/2015/06/13/the-illustrated-guide-to-linux-first-patch</id>
+    <content type="html"><![CDATA[<h2>Step 1: Standards and practices</h2>
+
+<p><img src="https://imgs.xkcd.com/comics/standards.png" alt="alt text" /></p>
+
+<p>Everything you have to know for working on the Linux Kernel has been created by Linus Torvalds.
+That is the Linux Kernel itself and git.</p>
+
+<p>Oh.. almost everything. Linus seemed content with the C programming language.</p>
+
+<p>Linux kernel is currently under a mixture of code following C89/C90 and C99 standards. By taking a
+look into the Makefiles you&rsquo;ll find the majority compiling with -std=gnu89, that is to say
+they are using the C89/C90 standard with some extensions.</p>
+
+<!--more-->
+
+
+<p>If you ever wonder why they still allow errors like these &ldquo;error: ‘for’ loop initial declarations are only allowed in C99 mode&rdquo;
+Linus has given a <a href="https://lkml.org/lkml/2012/4/12/18">legitimate answer</a> which says that it&rsquo;s mainly a standard for keeping code clean and easy to follw through the sources.</p>
+
+<p>Why git?
+CVS and SVN seemd a <a href="https://www.youtube.com/watch?v=4XpnKHJAok8">terrible idea</a> at that time as a version control system and what  do you do when you really don&rsquo;t like a tool?
+That&rsquo;s right, you&rsquo;ve probably guessed.</p>
+
+<p>So, the step 0 would be to setup git and download the latest kernel version. Also,make sure to fetch the changes every time you start working on
+something, so that your patches won&rsquo;t be rejected when the maintainer tries to apply them on the tree.</p>
+
+<p>The next step would be to check the kernel coding style, which is generously explained in the
+<a href="https://www.kernel.org/doc/Documentation/CodingStyle">Linux Documentation</a> and set your editor according to them.</p>
+
+<p><img src="http://evadeflow.com/wp-content/uploads/2011/03/TabsSpacesBoth_thumb.png" alt="alt text" /></p>
+
+<p>Yes, apart from the ultimate error which is breaking the build, the second ultimate would be mixing tabs and spaces!
+Linux Kernel goes on the dark side of tabs (no cookies, sorry), with extra-spaces when aligning parameters.</p>
+
+<h2>Step 2: My code is compiling</h2>
+
+<p><img src="https://imgs.xkcd.com/comics/compiling.png" alt="alt text" /></p>
+
+<p>Depending on your processor, the building time might vary, but it will still take a bit.
+In the meantime you can read Linux Device Drivers or have a little bit of fun reading some statistics on how many times words like &lsquo;bastard&rsquo; and &lsquo;crap&rsquo; <a href="https://www.linuxcounter.net/statistics/kernel">appear</a> in the Linux Kernel source code.
+You can also grep it for more fun.</p>
+
+<h2>Step 3: Make a small change and send it</h2>
+
+<p>The reason for which you that to pass through all these preparatory steps was to finally get some changes committed.
+You can start with a simple change such as adding error check on some devices or clean some code that needs refactoring.</p>
+
+<p>Linux does not use pull requests (at least not on <a href="https://github.com/torvalds/linux/pull/17#issuecomment-5654674">github</a> )
+as a means of merging changes, but e-mailed patches. That means you have to find the propper maintainter - the <code>get_maintainter.pl</code> in the
+<code>/scripts</code> folder will help you to do so - and e-mail him your patch. You&rsquo;ll find a set of standards for that, too.</p>
+
+<p><img src="http://imgs.xkcd.com/comics/goto.png" alt="alt image" /></p>
+
+<p>Just keep in mind to compile your module and test after making even the tiniest change, because if something goes wrong you will have wasted
+your time and the maintainer&rsquo;s time on sending a patch that cannot be applied, or worse, breaks the build.</p>
+
+<p>Even if sometimes paying attention to all these rules involving proper coding, commit standards and e-mail formatting seems to be a little bit
+overwhelming by taking more time than the actual code changes, with time it will become quite natural. After all, in a development area of
+aproximately <a href="http://lwn.net/Articles/646942/">1,500 people</a> working from remote areas, the needs of having a rather fixed set of rules is indeed well-justified.</p>
+
+<h2>Step 4: Become a regular contributor</h2>
+
+<p>After sending a series of first patches, you&rsquo;ll be proud to be officially known as a Kernel Newbie! You can choose a project to focus on, talk
+to people in the community, hang out on the IRC channels and so on.</p>
+
+<p>Keep in mind that, if there&rsquo;s something you cannot manage, it is very likely to find someone on the IRC channels more than happy to give you a hand.
+You don&rsquo;t have to become like this guy!</p>
+
+<p><img src="http://imgs.xkcd.com/comics/wisdom_of_the_ancients.png" alt="alt text" /></p>
+
+<p>For an official tutorial, please follow this <a href="http://kernelnewbies.org/FirstKernelPatch">link</a>.</p>
+
+<hr />
+
+<p>Copyright on the images goes to <a href="https://xkcd.com,">https://xkcd.com,</a> if not specified otherwise.</p>
+]]></content>
+  </entry>
+  
+</feed>

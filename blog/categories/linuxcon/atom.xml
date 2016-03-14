@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Linuxcon | The IIO Dummy Project]]></title>
+  <link href="http://cristina2689.github.io/blog/categories/linuxcon/atom.xml" rel="self"/>
+  <link href="http://cristina2689.github.io/"/>
+  <updated>2016-03-14T02:19:13+02:00</updated>
+  <id>http://cristina2689.github.io/</id>
+  <author>
+    <name><![CDATA[Cristina Georgiana Opriceana]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[LinuxCon 2016 Dublin]]></title>
+    <link href="http://cristina2689.github.io/blog/2016/03/05/linuxcon-2016-report/"/>
+    <updated>2016-03-05T15:12:08+02:00</updated>
+    <id>http://cristina2689.github.io/blog/2016/03/05/linuxcon-2016-report</id>
+    <content type="html"><![CDATA[<p>In the fall I attended LinuxCon 2015 in Dublin, Ireland as part of my internship at The Linux Foundation and I also gave a presentation on the results of my work in the IIO Dummy Driver, which went out of the staging area after the summer.</p>
+
+<p>There were three days of technical presentations, with a Keynote Presentation in the end of each day and several receptions for chat and interaction in the evening.</p>
+
+<p>I was most interested in the Linux Kernel presentations, but I noticed there were a lot of IoT and Cloud services presentations, since these represent some of the trends in administration lately.</p>
+
+<!--more-->
+
+
+<p>I joined the round 9 and round 10 interns, together with the coordinator of the program, Julia Lawell to constitute a panel on Linux Kernel Internship Reports, but this happend only on the 3rd day.</p>
+
+<p>The group coming from Romania was pretty large, we had 3 interns that gave presentations, some teaching assistants and professors from my university and also former interns in the internship program. Going to LinuxCon is somehow a tradition and the group becomes larger and larger every year.</p>
+
+<p>One of my favourite presentations was the one given by Michael Kerrisk (yes, the author of <code>The Linux Programming Interface</code>) on <code>seccomp</code> and the current capabilites of it, such as selective permission and investigation of system calls that a process can make.
+The presentation went through the beginnings of seccomp and then focused on Berkeley Packet Filter virtual machine, implemented in the kernel. Michael proposed some examples of filters and also integration of a program with BPF filters, which made the presentation more hands-on and provided high interaction with the public.</p>
+
+<p>I also attended Harald König&rsquo;s presentation on <code>Using strace to understand bash</code>, which were mostly things I&rsquo;ve known before, such as wildcards, quoting and some nice examples of strace investigation, such as seeing what login scripts have been executed in bash.</p>
+
+<p>Another presentation that I really liked was from the guys of <code>Free Electrons</code>. I&rsquo;ve been using the documentation of free electrons a lot, but I had no idea they are just  9-10 people working in the company, with such a great contribution of embedded Linux.</p>
+
+<p>The second day closed with Fireside Chat, in which Dirk Hohndel interviewed Linus Torvalds and it was for sure what everyone had expected to see. They talked about kernel security, future plans for Linux, the trouble of finding maintainers, not only contributions and also what would be the next project of Linus or if he&rsquo;s thinking of one. Linus had a particulary funny answer, suggesting that he created Git, Linux because no one else provided him with what he needed, adding that: <code>"I’d much rather coast along and be lazy. Anytime I need to start a new project,</code> <code>that’s a failure for the rest of the world"</code>.</p>
+
+<p>There was also room for the famous joke with Linus being hit by a bus, especially since in the UK they drive on the left side.</p>
+
+<p>I also had the chance to meet Linus Torvalds and GregKH in person at the ending reception, held in the Guiness Storehouse in Dublin. Pretty awesome!</p>
+
+<p><img src="https://scontent-frt3-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/12122788_10207887431046501_8984541342106139055_n.jpg?oh=a0a0657087673f79d569c525672b5dd7&amp;oe=578CB914" height="420" width="700" alt="LinuxCon" /></p>
+
+<p>On the 3rd day I had the opportunity to present my work over the summer on the Linux Kernel Internship Panel, introduced by Julia Lawell, the coordinator of the program. Meeting the other interns, sharing experiences and impressions on the internship and also meeting developers that I&rsquo;ve seen only on mailing lists made me see what truly is the Linux open source community.</p>
+
+<p><img src="https://scontent-frt3-1.xx.fbcdn.net/hphotos-xtf1/v/t1.0-9/10472157_10208926041931124_7822473924208183624_n.jpg?oh=f5e17e6b221877983f6fc7f52009a38a&amp;oe=5789E44C" height="420" width="700" alt="Presentationphoto" /></p>
+
+<p>Since the days were so busy with presentations and all, I didn&rsquo;t have the time to go visit too much, but Dublin has the air of an industrial and also modern city with pittoresque pubs in which one can have a nice time. I really enjoyed it.</p>
+
+<p>All in all, attending LinuxCon in Ireland was technically enligthening and fun, no need to mention the beer!</p>
+]]></content>
+  </entry>
+  
+</feed>
